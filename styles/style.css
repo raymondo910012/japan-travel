@@ -32,9 +32,13 @@ body #MainImage {
 }
 body header {
   background-color: white;
+  box-shadow: 0 10px 6px -6px #777;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 body header section.Logo {
   display: flex;
